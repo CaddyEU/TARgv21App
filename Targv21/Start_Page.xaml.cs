@@ -30,7 +30,8 @@ namespace Targv21
             new Dictionary_Page(),
             new Picker_Page(),
             new Table_Page(),
-            new File_Page()
+            new File_Page(),
+            new Horoskop_Page(),
         };
 
         List<string> texts = new List<string>
@@ -48,7 +49,8 @@ namespace Targv21
             "Dictionary Page",
             "Picker Page",
             "Table Page",
-            "File Page"
+            "File Page",
+            "Horoskop Page"
         };
 
         //This staff for making buttons all the time with differnts colors

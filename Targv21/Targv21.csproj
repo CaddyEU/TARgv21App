@@ -17,6 +17,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<Compile Update="Horoskop_Page.xaml.cs">
+		  <DependentUpon>Horoskop_Page.xaml</DependentUpon>
+		</Compile>
 		<Compile Update="Timer_Page.xaml.cs">
 			<DependentUpon>Timer_Page.xaml</DependentUpon>
 		</Compile>
@@ -68,5 +71,9 @@
 		<EmbeddedResource Update="TrafficLights_Page.xaml">
 			<Generator>MSBuild:UpdateDesignTimeXaml</Generator>
 		</EmbeddedResource>
+		<EmbeddedResource Update="Horoskop_Page.xaml">
+			<Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+		</EmbeddedResource>
+	
 	</ItemGroup>
 </Project>

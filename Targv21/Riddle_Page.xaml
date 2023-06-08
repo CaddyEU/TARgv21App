@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Targv21.Riddle_Page">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Label x:Name="RiddleLabel" FontSize="Large" HorizontalOptions="Center" />
+            <Entry x:Name="AnswerEntry" Placeholder="Enter your answer" HorizontalOptions="Center" />
+            <Button x:Name="StartButton" Text="Start" Clicked="StartButton_Clicked" HorizontalOptions="Center" />
+            <Button x:Name="CheckAnswerButton" Text="Check Answer" Clicked="CheckAnswerButton_Clicked" IsEnabled="False" HorizontalOptions="Center" />
+            <Label x:Name="TimeLabel" FontSize="Medium" HorizontalOptions="Center" />
+            <Label x:Name="ScoreLabel" FontSize="Medium" Text="Score: 0" HorizontalOptions="Center" />
+            <Button x:Name="NewGameButton" Text="New Game" Clicked="NewGameButton_Clicked" HorizontalOptions="Center" />
+            <Label x:Name="ResultLabel" FontSize="Medium" TextColor="Red" HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

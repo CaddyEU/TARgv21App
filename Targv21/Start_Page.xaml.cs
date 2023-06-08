@@ -18,6 +18,7 @@ namespace Targv21
         List<ContentPage> pages = new List<ContentPage>()
         {
             new Editor_Page(),
+            new Riddle_Page(),
             new Timer_Page(),
             new Box_Page(),
             new TrafficLights_Page(),
@@ -37,6 +38,7 @@ namespace Targv21
         List<string> texts = new List<string>
         {
             "Editor page",
+            "Riddle page",
             "Timer page",
             "BoxView Page",
             "Traffic lights Page",
